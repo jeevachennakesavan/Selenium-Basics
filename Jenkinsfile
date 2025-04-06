@@ -20,7 +20,7 @@ pipeline {
         stage('Run Selenium Tests') {
             steps {
                 script {
-                    echo 'Executing Selenium Tests...'
+                    echo 'Executing Selenium Tests'
                     bat 'mvn test'
                 }
             }
